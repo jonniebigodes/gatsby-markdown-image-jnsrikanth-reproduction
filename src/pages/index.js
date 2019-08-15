@@ -5,16 +5,17 @@ export default () => (
     Markdown items
     <br />
     <ul style={{
-        listStyleType:'none'
+        listStyleType:'none',
+        margin: '5px'
     }}>
       <li>
         <Link to={"/services/accounting/"}>
-          Firs markdown page, services/accounting
+         services/accounting
         </Link>
       </li>
       <li>
         <Link to={"/services/randomservice/"}>
-          second markdown page, services/randomservice
+          services/randomservice
         </Link>
       </li>
     </ul>
