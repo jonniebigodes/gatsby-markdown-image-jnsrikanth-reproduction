@@ -2,8 +2,6 @@ import React from 'react'
 import {graphql } from 'gatsby'
 import Img from 'gatsby-image'
 const DummyTemplate=({ data })=>{
-    console.log(data);
-    
     return (
         <div>
             <h1>
